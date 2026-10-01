@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Толеген Бауыржан</title>
+<meta name="description" content="Толеген Бауыржан — специалист в сфере управления, коммуникаций и стратегического развития. 9 лет опыта: руководство компанией и филиалом, работа с госорганами и международными организациями, аналитика.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Толеген Бауыржан — управление, коммуникации, стратегическое развитие">
+<meta property="og:description" content="Управленец и аналитик с 9-летним опытом. Магистр международных отношений (КИМЭП). KZ · RU · EN.">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="kk_KZ">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="theme-color" content="#0A6B66">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A6B66'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23fff' text-anchor='middle'%3ETB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,500;1,7..72,600&family=Golos+Text:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout concept: an analyst's briefing file. Cool paper ground, ink type, one Caspian-teal accent.
+   Hero = name set large like a dossier cover; career shown to scale on a 2015–2026 axis; contact closes on an ink band. */
+:root{
+  --paper:#F3F5F4; --surface:#FFFFFF; --ink:#111A1E; --muted:#56646A; --line:#D7DEDC;
+  --accent:#0A6B66; --accent-ink:#FFFFFF; --accent-soft:#E0EEEB;
+  --band:#10191D; --band-fg:#E9EFEE; --band-muted:#9AABAF; --band-line:#2A383D; --band-accent:#5CC2B5;
+  --f-display:"Literata", Georgia, "Times New Roman", serif;
+  --f-body:"Golos Text", "Segoe UI", Roboto, Arial, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:72px; --s9:112px;
+  --r:10px; --r-sm:6px;
+  --wrap:1160px;
+  --gutter:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#0C1215; --surface:#131C20; --ink:#E6ECEB; --muted:#93A2A6; --line:#253237;
+  --accent:#5CC2B5; --accent-ink:#06201E; --accent-soft:#14302D;
+  --band:#18242A; --band-fg:#E9EFEE; --band-muted:#9AABAF; --band-line:#2E3E44; --band-accent:#6FD3C6;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --paper:#0C1215; --surface:#131C20; --ink:#E6ECEB; --muted:#93A2A6; --line:#253237;
+  --accent:#5CC2B5; --accent-ink:#06201E; --accent-soft:#14302D;
+  --band:#18242A; --band-fg:#E9EFEE; --band-muted:#9AABAF; --band-line:#2E3E44; --band-accent:#6FD3C6;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:84px}
+body{background:var(--paper); color:var(--ink); font-family:var(--f-body); font-size:16.5px; line-height:1.6; -webkit-font-smoothing:antialiased; overflow-x:hidden}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-display); font-weight:600; line-height:1.12; text-wrap:balance; margin:0}
+p{margin:0}
+ul{margin:0; padding:0; list-style:none}
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:4px}
+.wrap{max-width:var(--wrap); margin-inline:auto; padding-inline:var(--gutter)}
+.mono{font-family:var(--f-mono); font-size:.78rem; letter-spacing:.04em}
+.eyebrow{font-family:var(--f-mono); font-size:.74rem; letter-spacing:.14em; text-transform:uppercase; color:var(--accent)}
+.skip{position:absolute; left:-999px; top:8px; background:var(--accent); color:var(--accent-ink); padding:8px 14px; border-radius:var(--r-sm); z-index:100}
+.skip:focus{left:12px}
+
+/* ---------- Header ---------- */
+.top{position:sticky; top:env(safe-area-inset-top,0px); z-index:50; background:color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter:saturate(1.4) blur(10px); -webkit-backdrop-filter:saturate(1.4) blur(10px); border-bottom:1px solid transparent; transition:border-color .2s}
+.top.scrolled{border-bottom-color:var(--line)}
+.top .wrap{display:flex; align-items:center; gap:var(--s5); height:64px}
+.mark{display:flex; align-items:center; gap:10px; text-decoration:none; font-family:var(--f-display); font-weight:600; font-size:1.02rem; white-space:nowrap}
+.mark b{display:grid; place-items:center; width:34px; height:34px; border-radius:8px; background:var(--accent); color:var(--accent-ink); font-size:.85rem; letter-spacing:.02em}
+.nav{display:flex; gap:2px; margin-left:auto}
+.nav a{text-decoration:none; font-size:.9rem; color:var(--muted); padding:8px 11px; border-radius:var(--r-sm); transition:color .15s, background .15s}
+.nav a:hover{color:var(--ink); background:var(--accent-soft)}
+.nav a[aria-current="true"]{color:var(--ink); background:var(--accent-soft)}
+.langs{display:flex; border:1px solid var(--line); border-radius:999px; padding:3px; gap:2px; flex:none}
+.langs button{font:500 .74rem/1 var(--f-mono); letter-spacing:.08em; border:0; background:none; color:var(--muted); padding:8px 10px; border-radius:999px; cursor:pointer; min-width:40px}
+.langs button[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+.langs button:hover:not([aria-pressed="true"]){color:var(--ink)}
+.burger{display:none; width:44px; height:44px; border:1px solid var(--line); background:none; border-radius:var(--r-sm); color:var(--ink); cursor:pointer; place-items:center}
+.burger svg{width:20px; height:20px}
+.mnav{display:none}
+
+@media (max-width: 920px){
+  .nav{display:none}
+  .langs{margin-left:auto}
+  .burger{display:grid}
+  .mnav{display:block; position:fixed; inset:calc(64px + env(safe-area-inset-top,0px)) 0 auto 0; background:var(--paper); border-bottom:1px solid var(--line); z-index:49; padding:var(--s3) var(--gutter) var(--s5)}
+  .mnav[hidden]{display:none!important}
+  .mnav a{display:flex; justify-content:space-between; align-items:center; text-decoration:none; font-family:var(--f-display); font-size:1.35rem; padding:14px 2px; border-bottom:1px solid var(--line); min-height:52px}
+  .mnav a span{font-family:var(--f-mono); font-size:.72rem; color:var(--muted)}
+  .mnav a[aria-current="true"]{color:var(--accent)}
+}
+@media (max-width: 420px){ .mark span{display:none} .langs button{min-width:38px; padding:8px 8px} }
+
+/* ---------- Hero ---------- */
+.hero{padding-block:clamp(40px,7vw,88px) clamp(40px,6vw,72px)}
+.hero-grid{display:grid; grid-template-columns:minmax(0,1fr) 280px; gap:clamp(32px,5vw,72px); align-items:start}
+.metaline{display:flex; flex-wrap:wrap; gap:6px 18px; color:var(--muted); margin-bottom:var(--s5)}
+.metaline span{display:inline-flex; align-items:center; gap:8px}
+.metaline span::before{content:""; width:6px; height:6px; border-radius:50%; background:var(--accent)}
+.name{font-size:clamp(2.9rem,8.4vw,6.4rem); font-weight:600; letter-spacing:-.025em; line-height:.98}
+.name .l2{display:block; font-style:italic; font-weight:500; color:var(--accent)}
+.headline{margin-top:var(--s5); font-family:var(--f-display); font-size:clamp(1.15rem,2.1vw,1.5rem); font-weight:400; line-height:1.35; max-width:34ch; color:var(--ink)}
+.lead{margin-top:var(--s4); color:var(--muted); max-width:62ch; font-size:1.02rem}
+.focus{display:flex; flex-wrap:wrap; gap:8px; margin-top:var(--s5)}
+.focus li{border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:6px 14px; font-size:.88rem}
+.ctas{display:flex; flex-wrap:wrap; gap:12px; margin-top:var(--s6)}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:48px; padding:0 22px; border-radius:999px; font:500 .95rem/1 var(--f-body); text-decoration:none; border:1px solid var(--ink); transition:transform .15s, background .15s, color .15s; cursor:pointer}
+.btn-primary{background:var(--ink); color:var(--paper)}
+.btn-primary:hover{background:var(--accent); border-color:var(--accent); color:var(--accent-ink)}
+.btn-ghost{background:transparent; color:var(--ink)}
+.btn-ghost:hover{background:var(--surface)}
+.btn svg{width:16px; height:16px}
+.btn-band{background:var(--band-accent); border-color:var(--band-accent); color:var(--band)}
+.btn-band:hover{background:transparent; color:var(--band-accent)}
+.cv-dl[aria-busy="true"]{opacity:.6; pointer-events:none}
+
+.portrait{margin:0; position:relative}
+.portrait .frame{position:relative; border-radius:var(--r); overflow:hidden; background:var(--surface); border:1px solid var(--line); aspect-ratio:5/6; max-width:100%}
+.portrait .frame{background:#F2F3F3}
+.portrait img{display:block; width:100%; height:100%; object-fit:cover; object-position:50% 30%}
+.portrait figcaption{display:grid; gap:2px; padding-top:var(--s3); border-top:1px solid var(--line); margin-top:var(--s3)}
+.portrait figcaption .mono{color:var(--muted)}
+.portrait figcaption strong{font-weight:500; font-size:.92rem; line-height:1.35}
+.corner{position:absolute; width:18px; height:18px; border-color:var(--accent); border-style:solid; z-index:2}
+.corner.tl{top:-7px; left:-7px; border-width:2px 0 0 2px}
+.corner.br{bottom:calc(-7px); right:-7px; border-width:0 2px 2px 0}
+
+.stats{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:clamp(40px,6vw,64px); border-top:1px solid var(--ink); border-bottom:1px solid var(--line)}
+.stat{padding:var(--s5) var(--s5) var(--s5) 0; display:flex; align-items:baseline; gap:14px; min-width:0}
+.stat + .stat{padding-left:var(--s5); border-left:1px solid var(--line)}
+.stat b{font-family:var(--f-display); font-size:clamp(2.4rem,5vw,3.6rem); font-weight:600; line-height:1; color:var(--accent); font-variant-numeric:tabular-nums}
+.stat span{font-size:.92rem; color:var(--muted); line-height:1.3; min-width:0}
+
+@media (max-width: 860px){
+  .hero-grid{grid-template-columns:1fr}
+  .portrait{display:grid; grid-template-columns:112px 1fr; gap:var(--s4); align-items:end; order:-1}
+  .portrait figcaption{border-top:0; margin-top:0; padding-top:0}
+  .corner{display:none}
+}
+@media (max-width: 560px){
+  .stats{grid-template-columns:1fr}
+  .stat, .stat + .stat{padding:var(--s4) 0; border-left:0}
+  .stat + .stat{border-top:1px solid var(--line)}
+  .ctas .btn{flex:1 1 auto}
+}
+
+/* ---------- Sections ---------- */
+section.block{padding-block:clamp(56px,8vw,104px); border-top:1px solid var(--line)}
+.sec-head{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:var(--s5) var(--s7); align-items:end; margin-bottom:clamp(28px,4vw,48px)}
+.sec-head h2{font-size:clamp(1.9rem,4vw,2.9rem); letter-spacing:-.015em; margin-top:var(--s3)}
+.sec-head p{color:var(--muted); max-width:52ch}
+@media (max-width: 760px){ .sec-head{grid-template-columns:1fr} }
+
+/* Expertise */
+.xgrid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--s4)}
+.xcard{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:var(--s5); display:flex; flex-direction:column; gap:var(--s3); transition:border-color .2s, transform .2s; min-width:0}
+.xcard:hover{border-color:var(--accent); transform:translateY(-2px)}
+.xcard .ico{width:40px; height:40px; border-radius:8px; background:var(--accent-soft); color:var(--accent); display:grid; place-items:center}
+.xcard .ico svg{width:20px; height:20px}
+.xcard h3{font-size:1.25rem}
+.xcard p{color:var(--muted); font-size:.95rem}
+.tags{display:flex; flex-wrap:wrap; gap:6px}
+.tags li{font-size:.8rem; padding:4px 10px; border-radius:var(--r-sm); background:var(--paper); border:1px solid var(--line)}
+.ev{margin-top:auto; padding-top:var(--s3); border-top:1px dashed var(--line); color:var(--muted); font-family:var(--f-mono); font-size:.74rem; line-height:1.5}
+.ev::before{content:"↳ "; color:var(--accent)}
+@media (max-width: 980px){ .xgrid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width: 620px){ .xgrid{grid-template-columns:1fr} }
+
+/* Career span */
+.span{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:var(--s5); margin-bottom:var(--s7)}
+.span-top{display:flex; justify-content:space-between; gap:var(--s4); flex-wrap:wrap; margin-bottom:var(--s4)}
+.span-top .mono{color:var(--muted)}
+.span-rows{display:grid; gap:10px}
+.srow{display:grid; grid-template-columns:170px minmax(0,1fr); gap:var(--s4); align-items:center; text-decoration:none; border-radius:var(--r-sm)}
+.srow .lbl{font-size:.86rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.track{position:relative; height:22px; background:repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px calc(100% / 12)); border-radius:3px}
+.bar{position:absolute; top:3px; bottom:3px; background:var(--accent); border-radius:3px; transition:filter .15s}
+.bar.alt{background:color-mix(in srgb, var(--accent) 55%, var(--surface))}
+.srow:hover .bar{filter:brightness(1.12)}
+.axis{display:grid; grid-template-columns:170px minmax(0,1fr); gap:var(--s4); margin-top:8px}
+.ticks{display:grid; grid-template-columns:repeat(12,1fr); color:var(--muted); font-family:var(--f-mono); font-size:.7rem}
+.legend{display:flex; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:.8rem}
+.legend i{display:inline-block; width:14px; height:8px; border-radius:2px; background:var(--accent); margin-right:6px; vertical-align:middle}
+.legend i.alt{background:color-mix(in srgb, var(--accent) 55%, var(--surface))}
+@media (max-width: 640px){
+  .srow, .axis{grid-template-columns:1fr; gap:4px}
+  .axis > :first-child{display:none}
+  .ticks span:nth-child(even){visibility:hidden}
+  .span{padding:var(--s4)}
+}
+
+/* Timeline */
+.tl{position:relative; display:grid; gap:var(--s4)}
+.job{display:grid; grid-template-columns:150px minmax(0,1fr); gap:var(--s5)}
+.job .when{padding-top:22px; text-align:right; color:var(--muted)}
+.job .when b{display:block; font-family:var(--f-mono); font-weight:500; font-size:.8rem; color:var(--ink); letter-spacing:.02em}
+.job .when span{font-family:var(--f-mono); font-size:.72rem}
+.card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); transition:border-color .2s; min-width:0}
+.card:hover, .card[open]{border-color:color-mix(in srgb, var(--accent) 45%, var(--line))}
+.card > summary{list-style:none; cursor:pointer; padding:var(--s5); display:grid; grid-template-columns:minmax(0,1fr) auto; gap:var(--s4); align-items:start}
+.card > summary::-webkit-details-marker{display:none}
+.card .org{font-family:var(--f-mono); font-size:.74rem; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); line-height:1.5}
+.card h3{font-size:1.3rem; margin-top:6px}
+.card .sum{color:var(--muted); margin-top:8px; font-size:.95rem}
+.card .roles{display:flex; flex-wrap:wrap; gap:6px; margin-top:var(--s3)}
+.card .roles li{font-size:.78rem; padding:3px 9px; border-radius:999px; background:var(--accent-soft); color:var(--ink)}
+.chev{display:inline-flex; align-items:center; gap:8px; font-family:var(--f-mono); font-size:.72rem; color:var(--muted); white-space:nowrap; padding:8px 0}
+.chev svg{width:16px; height:16px; transition:transform .2s}
+.card[open] .chev svg{transform:rotate(180deg)}
+.chev .c{display:none}
+.card[open] .chev .o{display:none}
+.card[open] .chev .c{display:inline}
+.detail{padding:0 var(--s5) var(--s5); display:grid; gap:var(--s4)}
+.role{border-top:1px solid var(--line); padding-top:var(--s4); display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px var(--s4)}
+.role h4{margin:0; font-size:1rem; font-weight:600}
+.role .rp{font-family:var(--f-mono); font-size:.74rem; color:var(--muted); text-align:right; white-space:nowrap}
+.role ul{grid-column:1 / -1; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px var(--s5); margin-top:6px}
+@media (max-width: 900px){ .role ul{grid-template-columns:1fr} }
+.role li{position:relative; padding-left:18px; font-size:.95rem; color:var(--ink)}
+.role li::before{content:""; position:absolute; left:2px; top:.72em; width:7px; height:1.5px; background:var(--accent)}
+.gap{display:grid; grid-template-columns:150px minmax(0,1fr); gap:var(--s5)}
+@media (max-width: 720px){
+  .job{grid-template-columns:1fr; gap:6px}
+  .job .when{padding-top:0; text-align:left; display:flex; gap:10px; align-items:baseline; flex-wrap:wrap}
+  .card > summary{padding:var(--s4); grid-template-columns:1fr}
+  .chev{justify-self:start; padding:4px 0 0}
+  .detail{padding:0 var(--s4) var(--s4)}
+  .role{grid-template-columns:1fr}
+  .role .rp{text-align:left; white-space:normal}
+}
+
+/* Projects */
+.pgrid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--s4)}
+.proj .sl{display:flex; gap:4px; flex-wrap:wrap}
+.proj .sl span:not(.sr){font-family:var(--f-mono); font-size:.66rem; letter-spacing:.06em; padding:2px 6px; border:1px solid var(--line); border-radius:4px; color:var(--muted)}
+.proj{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); overflow:hidden; display:flex; flex-direction:column; text-decoration:none; color:inherit; transition:border-color .2s, transform .2s; min-width:0}
+a.proj:hover{border-color:var(--accent); transform:translateY(-3px)}
+.proj .plate{aspect-ratio:16/10; max-width:100%; background:var(--accent-soft); display:grid; place-items:center; position:relative; border-bottom:1px solid var(--line)}
+.proj .plate b{font-family:var(--f-display); font-style:italic; font-weight:600; font-size:2.6rem; color:var(--accent); letter-spacing:-.02em}
+.proj .plate .mono{position:absolute; left:12px; top:10px; color:var(--muted); font-size:.68rem}
+.proj .pb{padding:var(--s4) var(--s4) var(--s5); display:flex; flex-direction:column; gap:6px; flex:1}
+.proj h3{font-size:1.15rem}
+.proj .k{font-size:.86rem; color:var(--muted)}
+.proj .url{font-family:var(--f-mono); font-size:.72rem; color:var(--muted); overflow-wrap:anywhere; margin-top:auto; padding-top:var(--s3)}
+.proj .go{display:inline-flex; align-items:center; gap:6px; font-size:.86rem; font-weight:500; color:var(--accent)}
+.proj .go svg{width:14px; height:14px}
+@media (max-width: 980px){ .pgrid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width: 480px){ .pgrid{grid-template-columns:1fr} .proj .plate{aspect-ratio:16/7} }
+
+/* Education + languages */
+.edu-grid{display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:clamp(32px,5vw,64px)}
+.edu-grid h3.sub{font-family:var(--f-mono); font-size:.74rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:500; margin-bottom:var(--s4)}
+.edu li{display:grid; grid-template-columns:72px minmax(0,1fr); gap:var(--s4); padding-block:var(--s4); border-top:1px solid var(--line)}
+.edu li:last-child{border-bottom:1px solid var(--line)}
+.edu .yr{font-family:var(--f-display); font-size:1.5rem; font-weight:600; color:var(--accent); line-height:1.1; font-variant-numeric:tabular-nums}
+.edu strong{display:block; font-family:var(--f-display); font-size:1.15rem; font-weight:600; line-height:1.3}
+.edu span{color:var(--muted); font-size:.93rem}
+.langs-list li{display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:4px var(--s4); padding-block:12px; border-top:1px solid var(--line)}
+.langs-list li:last-child{border-bottom:1px solid var(--line)}
+.langs-list .ln{font-weight:500}
+.langs-list .lv{font-family:var(--f-mono); font-size:.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; grid-column:1}
+.meter{display:flex; gap:4px; grid-row:1 / span 2; grid-column:2}
+.meter i{width:22px; height:6px; border-radius:2px; background:var(--line)}
+.meter i.on{background:var(--accent)}
+.extra{margin-top:var(--s6); display:grid; gap:8px}
+.extra li{display:flex; gap:10px; align-items:baseline; font-size:.95rem}
+.extra li::before{content:""; flex:none; width:6px; height:6px; border-radius:50%; background:var(--accent); transform:translateY(-2px)}
+@media (max-width: 820px){ .edu-grid{grid-template-columns:1fr} }
+
+/* Contact band */
+.contact{background:var(--band); color:var(--band-fg); padding-block:clamp(64px,9vw,120px)}
+.contact .eyebrow{color:var(--band-accent)}
+.contact h2{font-size:clamp(2.2rem,6vw,4.4rem); letter-spacing:-.02em; margin-top:var(--s3)}
+.contact .clead{color:var(--band-muted); margin-top:var(--s4); max-width:52ch}
+.clist{margin-top:clamp(32px,5vw,56px); display:grid; border-top:1px solid var(--band-line)}
+.citem{display:grid; grid-template-columns:140px minmax(0,1fr) auto; gap:var(--s4); align-items:center; padding-block:var(--s5); border-bottom:1px solid var(--band-line)}
+.citem .ck{font-family:var(--f-mono); font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; color:var(--band-muted)}
+.citem .cv{font-family:var(--f-display); font-size:clamp(1.3rem,3.2vw,2.1rem); font-weight:500; overflow-wrap:anywhere; text-decoration:none; color:var(--band-fg); user-select:all; -webkit-user-select:all}
+.citem a.cv:hover{color:var(--band-accent)}
+.citem .cv.small{font-size:clamp(1.1rem,2.4vw,1.5rem); user-select:auto; -webkit-user-select:auto}
+.copy{font:500 .8rem/1 var(--f-mono); letter-spacing:.04em; color:var(--band-fg); background:transparent; border:1px solid var(--band-line); border-radius:999px; padding:0 16px; min-height:44px; cursor:pointer; transition:border-color .15s, color .15s; white-space:nowrap}
+.copy:hover{border-color:var(--band-accent); color:var(--band-accent)}
+.copy.done{border-color:var(--band-accent); color:var(--band-accent)}
+.contact :focus-visible{outline-color:var(--band-accent)}
+@media (max-width: 640px){
+  .citem{grid-template-columns:minmax(0,1fr) auto; gap:6px var(--s3)}
+  .citem .ck{grid-column:1 / -1}
+}
+footer{background:var(--band); color:var(--band-muted); border-top:1px solid var(--band-line); padding-block:var(--s5)}
+footer .wrap{display:flex; justify-content:space-between; gap:var(--s4); flex-wrap:wrap; font-family:var(--f-mono); font-size:.74rem}
+footer a{color:var(--band-fg)}
+
+/* Motion */
+.rv{transition:opacity .6s ease, transform .6s ease}
+.rv.pre{opacity:0; transform:translateY(14px)}
+@keyframes rise{from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none}}
+.hero .anim{animation:rise .7s ease both}
+.hero .anim:nth-child(2){animation-delay:.06s}
+.hero .anim:nth-child(3){animation-delay:.12s}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important; transition:none!important}
+  .rv.pre{opacity:1; transform:none}
+}
+.sr{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap}
+</style>
+</head>
+<body>
+
+
+<a class="skip" href="#main" id="skip">Перейти к содержанию</a>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="mark" href="#about" aria-label="Толеген Бауыржан"><b aria-hidden="true">TB</b><span id="markName">Толеген Бауыржан</span></a>
+    <nav class="nav" id="nav" aria-label="Main"></nav>
+    <div class="langs" role="group" aria-label="Language / Тіл / Язык" id="langs">
+      <button type="button" data-lang="kz" lang="kk" aria-pressed="false">KZ</button>
+      <button type="button" data-lang="ru" lang="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="mnav" aria-label="Меню">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path id="burgerPath" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<nav class="mnav" id="mnav" aria-label="Mobile" hidden></nav>
+
+<main id="main">
+  <section class="hero wrap" id="about" aria-labelledby="h-name"></section>
+  <section class="block" id="expertise" aria-labelledby="h-expertise"><div class="wrap" id="expertiseIn"></div></section>
+  <section class="block" id="experience" aria-labelledby="h-experience"><div class="wrap" id="experienceIn"></div></section>
+  <section class="block" id="projects" aria-labelledby="h-projects"><div class="wrap" id="projectsIn"></div></section>
+  <section class="block" id="education" aria-labelledby="h-education"><div class="wrap" id="educationIn"></div></section>
+  <section class="contact" id="contact" aria-labelledby="h-contact"><div class="wrap" id="contactIn"></div></section>
+</main>
+<footer><div class="wrap" id="footIn"></div></footer>
+
+<script>
+/* ================= DATA (source: CV in KZ / RU / EN) ================= */
+const PHOTO = "data:image/jpeg;base64,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";
+const CONTACT = { email:"btolegen@gmail.com", phone:"+7 778 970 58 54", tel:"+77789705854" };
+
+/* Career facts shared across languages: dates exactly as in the CV */
+const JOBS = [
+  { id:"flux", roles:[
+      { key:"branch", periods:[["2025-03","2026-05"]] },
+      { key:"deputy", periods:[["2025-01","2025-02"],["2023-09","2024-04"]] },
+      { key:"bdm",    periods:[["2024-10","2024-12"]] },
+      { key:"gd",     periods:[["2024-05","2024-09"]] } ] },
+  { id:"acg",    roles:[{ key:"main", periods:[["2022-04","2022-09"]] }] },
+  { id:"apec",   roles:[{ key:"main", periods:[["2020-01","2022-03"]] }] },
+  { id:"samruk", roles:[{ key:"main", periods:[["2019-03","2019-12"]] }] },
+  { id:"center", roles:[{ key:"main", periods:[["2015-07","2019-02"]] }] }
+];
+/* The owner's selected works */
+const PROJECTS = [
+  { id:"lr",   name:"LR Clinic",          mono:"LR",  url:"https://lrclinic.vercel.app/",                 domain:"lrclinic.vercel.app",               kind:"site",     site:["RU","KZ","EN"] },
+  { id:"kt",   name:"Kazana Travel",      mono:"KT",  url:"https://kazanatravel.vercel.app/",             domain:"kazanatravel.vercel.app",           kind:"site",     site:["EN","AR"] },
+  { id:"ess",  name:"ЭлектроСтройСервис", mono:"ЭСС", url:"https://www.electrostroyservice.kz/",          domain:"electrostroyservice.kz",            kind:"site",     site:["RU","KZ"] }
+];
+const LANG_LEVELS = [5,5,4,4,1];
+const EDU_YEARS = [2017,2012,2011];
+const ICONS = {
+  lead:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
+  gov:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 21h18"/></svg>',
+  data:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5M8 12.5l2-2.5 2 2 2-3"/></svg>',
+  comm:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h11v8H8l-4 3zM15 9h5v8l-3-2h-6v-2"/></svg>',
+  biz:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>',
+  web:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9.5 13l-2 2 2 2M14.5 13l2 2-2 2"/></svg>'
+};
+const XICONS = ["lead","gov","data","comm","biz","web"];
+const ARROW = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg>';
+const PDFICON = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 6.5L8 10l3.5-3.5M3 13.5h10"/></svg>';
+const DOWN = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>';
+
+/* ================= COPY: three separate language versions ================= */
+const T = {
+ru:{
+  htmlLang:"ru", docTitle:"Толеген Бауыржан — управление, коммуникации, стратегическое развитие",
+  skip:"Перейти к содержанию", menu:"Меню", close:"Закрыть меню",
+  nav:{about:"Обо мне",expertise:"Компетенции",experience:"Опыт",projects:"Проекты",education:"Образование",contact:"Контакты"},
+  name:["Толеген","Бауыржан"],
+  meta:["Атырауская область","Готов к переезду","Полная занятость"],
+  headline:"Специалист в сфере управления, коммуникаций и стратегического развития",
+  lead:"Руководил компанией и филиалом, представлял организации перед госорганами, партнёрами и международными организациями, готовил аналитику информационного пространства для госсектора. Создаю сайты и цифровые платформы с помощью ИИ-инструментов и могу самостоятельно запускать цифровые каналы компании.",
+  focus:["Управление и стратегия","Госорганы и международные связи","Аналитика и отчётность","Цифровые продукты"],
+  cta:["Смотреть опыт","Связаться"], cv:"Скачать резюме, PDF", cvBusy:"Готовлю файл…", cvFail:"Не удалось сохранить. Файл откроется в новой вкладке.",
+  photoAlt:"Портрет Толегена Бауыржана",
+  caption:["Образование","Магистр международных отношений, Университет КИМЭП"],
+  stats:[["9","лет опыта"],["4","языка свободно"],["3","цифровых проекта"]],
+  xEyebrow:"Компетенции", xTitle:"Ключевые компетенции", xIntro:"Девять компетенций из резюме, сгруппированные по направлениям и подкреплённые местом, где они применялись.",
+  xgroups:[
+    ["Управление и стратегия","Руководство филиалом и компанией, стратегия развития, бюджет и бизнес-процессы.",["Управление командой"],"ТОО «Флюкс»: директор, директор филиала, заместитель директора"],
+    ["Госорганы и международные связи","Представление интересов организации перед госорганами, партнёрами и международными организациями.",["Работа с госорганами","Международные связи","Переговоры"],"Флюкс · APEC PetroTechnic · Комитет информации РК"],
+    ["Аналитика","Мониторинг информационного пространства и аналитические справки для министерства.",["Мониторинг медиа и инфополя","Аналитика и отчётность"],"Центр анализа и информации Комитета информации РК, 2015–2019"],
+    ["Коммуникации","Внутренние коммуникации, корпоративные мероприятия, приём делегаций, корпоративное обучение.",["Внутренние коммуникации","Корпоративные мероприятия"],"Samruk Business Academy · Access and Coating Group Training"],
+    ["Развитие бизнеса","Привлечение клиентов и партнёров, коммерческие предложения, развитие партнёрской сети.",[],"ТОО «Флюкс»: менеджер по развитию бизнеса, директор филиала"],
+    ["Цифровые продукты","Сайты и цифровые платформы, созданные с помощью ИИ-инструментов.",["Сайты и SaaS (вайбкодинг)"],"3 проекта: LR Clinic, Kazana Travel, ЭлектроСтройСервис"]
+  ],
+  eEyebrow:"Опыт", eTitle:"Опыт работы", eIntro:"Шкала показывает каждую позицию в реальном масштабе времени. Нажмите на карточку, чтобы раскрыть обязанности.",
+  spanTitle:"Карьера на шкале, 2015–2026", spanLegend:["Основная роль","Повторный период в той же роли"],
+  more:"Подробнее", less:"Свернуть", yr:"г.", mo:"мес.", rolesN:n=>`${n} роли`,
+  jobs:{
+    flux:{ org:"ТОО «Флюкс»", short:"Флюкс", title:"Руководящие позиции", sum:"Директор компании, заместитель директора, менеджер по развитию бизнеса и директор филиала в Астане.",
+      roles:{ branch:["Директор филиала в г. Астана",["Организация и контроль операционной деятельности филиала","Обеспечение выполнения плановых показателей и развитие клиентской базы","Управление персоналом: подбор, мотивация и развитие команды","Взаимодействие с головным офисом и смежными подразделениями","Контроль финансово-хозяйственной деятельности и оптимизация затрат","Обеспечение соблюдения корпоративных стандартов и процедур","Представление интересов компании на региональном уровне"]],
+              deputy:["Заместитель директора фирмы",["Координация работы ключевых подразделений компании","Участие в разработке и реализации стратегических решений","Контроль исполнения операционных и финансовых планов","Планирование, формирование и контроль статей бюджетных расходов: автотранспортные услуги, аренда офисных помещений, офисная мебель, канцелярские товары и прочие затраты","Анализ показателей деятельности филиалов и дочерних структур","Контроль соблюдения на объектах требований охраны труда, промышленной и экологической безопасности","Взаимодействие с партнёрами, подрядчиками и государственными органами","Контроль внутренних регламентов и процессов, оптимизация бизнес-процессов","Хозяйственное обслуживание и надлежащее технико-санитарное состояние учреждения по нормам производственной санитарии и пожарной безопасности","Замещение директора в его отсутствие и принятие управленческих решений","Приёмка и обработка товаров для поставки, организация доставки и заказов","Подготовка предложений для директора по снижению затрат"]],
+              bdm:["Менеджер по развитию бизнеса",["Поиск и привлечение новых клиентов и партнёров","Анализ рынка и конкурентной среды, выявление новых возможностей","Разработка стратегий роста и реализация планов выхода на новые рынки","Подготовка коммерческих предложений и ведение переговоров","Сопровождение сделок до заключения договора","Взаимодействие с внутренними подразделениями для запуска новых проектов","Формирование отчётности и контроль показателей развития"]],
+              gd:["Директор",["Общее руководство деятельностью компании на уровне головного офиса","Разработка и реализация стратегии развития бизнеса","Контроль выполнения финансовых, операционных и производственных показателей","Управление ключевыми подразделениями и координация работы филиалов","Принятие решений по инвестиционным, финансовым, кадровым и организационным вопросам","Представление интересов компании перед государственными органами и партнёрами","Обеспечение эффективности внутренних процессов и контроль соблюдения корпоративных стандартов"]] } },
+    acg:{ org:"ТОО «Access and Coating Group Training»", short:"Access and Coating", title:"", sum:"Программы корпоративного обучения, работа с тренерами и адаптация новых сотрудников.",
+      roles:{ main:["Координатор (менеджер) программ и проектов",["Организация и координация программ корпоративного обучения","Взаимодействие с внешними и внутренними тренерами, формирование графика обучения","Сбор заявок на обучение, анализ потребностей персонала в развитии","Подготовка учебных материалов и логистика проведения тренингов","Ведение базы данных по обучению, отчётность и оценка эффективности","Сопровождение адаптации новых сотрудников","Контроль соблюдения стандартов и процедур в сфере обучения и развития"]] } },
+    apec:{ org:"ТОО «Высший колледж APEC PetroTechnic»", short:"APEC PetroTechnic", title:"", sum:"Стратегия развития колледжа, модернизация учебного процесса и запуск новых образовательных программ.",
+      roles:{ main:["Руководитель отдела по стратегии",["Разработка и реализация стратегии развития учебного заведения","Анализ рынка образовательных услуг и внедрение инновационных подходов в обучение","Инициирование и координация проектов по модернизации учебного процесса","Взаимодействие с партнёрами, государственными органами и международными организациями","Подготовка аналитических отчётов, стратегических планов и предложений","Координация внедрения новых образовательных программ и направлений","Мониторинг ключевых показателей качества и эффективности обучения"]] } },
+    samruk:{ org:"Samruk Business Academy (ранее — Корпоративный университет «Самрук-Казына») · АО «Эмбамунайгаз»", short:"Samruk Business Academy", title:"", sum:"Административная поддержка подразделений, документооборот, приём делегаций.",
+      roles:{ main:["Специалист канцелярии",["Административная и организационная поддержка подразделений компании","Ведение документации, подготовка отчётов и контроль исполнения поручений","Участие в материально-техническом обеспечении, взаимодействие с подрядными организациями","Подготовка служебных записок и заявок, сопровождение внутренних процессов","Регистрация, приём и обслуживание делегаций и командированных лиц","Взаимодействие с другими структурными подразделениями по текущим вопросам","Обеспечение порядка работы вспомогательных сервисов и инфраструктуры","Участие во внутренних инициативах и корпоративных мероприятиях","Взаимодействие с производственными управлениями по вопросам хозяйственного обслуживания","Анализ результативности собственной работы и непрерывное совершенствование процессов"]] } },
+    center:{ org:"РГП на ПХВ «Центр анализа и информации» Комитета информации Министерства культуры и информации РК", short:"Центр анализа и информации", title:"", sum:"Аналитика в сфере связи и ИТ, мониторинг информационного пространства, материалы для министерства.",
+      roles:{ main:["Аналитик-эксперт",["Сбор, обработка и анализ статистических и аналитических данных в сфере связи и информационных технологий","Подготовка отчётов, справок и аналитических материалов для министерства и государственных органов","Участие в разработке стратегических документов, программ и проектов в сфере цифрового развития","Мониторинг отраслевых тенденций и информационного пространства","Сопровождение информационно-аналитических систем и баз данных","Взаимодействие с экспертами, госорганами и организациями в рамках межведомственного сотрудничества","Поддержка принятия решений на основе аналитических выводов и прогнозов"]] } }
+  },
+  pEyebrow:"Проекты", pTitle:"Цифровые проекты", pIntro:"Сайты и веб-платформы, которые я создал с помощью ИИ-инструментов.",
+  kinds:{site:"Сайт",platform:"Веб-платформа"}, open:"Открыть сайт", opensNew:"(откроется в новой вкладке)", siteLangs:"Языки сайта",
+  proj:{ lr:"Стоматологическая клиника, Астана", kt:"Авторские частные путешествия по Казахстану, Алматы", ess:"Строительство и обслуживание энергообъектов, Атырау" },
+  edEyebrow:"Образование", edTitle:"Образование и языки", edIntro:"Международные отношения в КИМЭП и стажировка в Мажилисе Парламента РК.",
+  eduHead:"Образование", edu:[["Магистр международных отношений","Университет КИМЭП"],["Бакалавр международных отношений","Университет КИМЭП"],["Стажировка","Мажилис Парламента РК"]],
+  langHead:"Языки", langs:[["Казахский","свободно"],["Русский","свободно"],["Английский","продвинутый"],["Турецкий","продвинутый"],["Испанский","начальный"]],
+  extraHead:"Дополнительно", extra:["Водительские права: B, B1, C, C1","Полная занятость","Готов к переезду"],
+  cEyebrow:"Контакты", cTitle:"Свяжитесь со мной", cLead:"Рассматриваю предложения о полной занятости. Готов к переезду.",
+  cLabels:["Email","Телефон","Регион"], region:"Атырауская область, Казахстан", copy:"Копировать", copied:"Скопировано",
+  foot:"Толеген Бауыржан", toTop:"Наверх"
+},
+kz:{
+  htmlLang:"kk", docTitle:"Төлеген Бауыржан — басқару, коммуникация, стратегиялық даму",
+  skip:"Мазмұнға өту", menu:"Мәзір", close:"Мәзірді жабу",
+  nav:{about:"Туралы",expertise:"Құзыреттер",experience:"Тәжірибе",projects:"Жобалар",education:"Білімі",contact:"Байланыс"},
+  name:["Төлеген","Бауыржан"],
+  meta:["Атырау облысы","Көшуге дайынмын","Толық жұмыс күні"],
+  headline:"Басқару, коммуникация және стратегиялық даму саласындағы маман",
+  lead:"Компания мен филиалды басқардым, ұйым мүддесін мемлекеттік органдар, серіктестер мен халықаралық ұйымдар алдында таныстырдым, мемлекеттік сектор үшін ақпараттық кеңістікті талдадым. Жасанды интеллект құралдарымен сайттар мен цифрлық платформалар әзірлеймін және компанияның цифрлық арналарын өз бетімше іске қоса аламын.",
+  focus:["Басқару және стратегия","Мемлекеттік органдар және халықаралық байланыстар","Талдау және есептілік","Цифрлық өнімдер"],
+  cta:["Тәжірибені көру","Байланысу"], cv:"Түйіндемені жүктеу, PDF", cvBusy:"Файл дайындалуда…", cvFail:"Сақтау мүмкін болмады. Файл жаңа бетте ашылады.",
+  photoAlt:"Төлеген Бауыржанның портреті",
+  caption:["Білімі","Халықаралық қатынастар магистрі, КИМЭП университеті"],
+  stats:[["9","жыл тәжірибе"],["4","тілді еркін меңгерген"],["3","цифрлық жоба"]],
+  xEyebrow:"Құзыреттер", xTitle:"Негізгі құзыреттер", xIntro:"Түйіндемедегі тоғыз құзырет бағыттар бойынша топтастырылып, қай жерде қолданылғанымен көрсетілген.",
+  xgroups:[
+    ["Басқару және стратегия","Филиал мен компанияны басқару, даму стратегиясы, бюджет және бизнес-процестер.",["Команданы басқару"],"«Флюкс» ЖШС: директор, филиал директоры, директор орынбасары"],
+    ["Мемлекеттік органдар және халықаралық байланыстар","Ұйым мүддесін мемлекеттік органдар, серіктестер мен халықаралық ұйымдар алдында таныстыру.",["Мемлекеттік органдармен жұмыс","Халықаралық байланыстар","Келіссөздер"],"«Флюкс» · APEC PetroTechnic · ҚР Ақпарат комитеті"],
+    ["Талдау","Ақпараттық кеңістікке мониторинг және министрлікке талдамалық анықтамалар.",["Медиа мен ақпарат кеңістігін бақылау","Талдау және есептілік"],"ҚР Ақпарат комитетінің «Талдау және ақпарат орталығы», 2015–2019"],
+    ["Коммуникациялар","Ішкі коммуникациялар, корпоративтік іс-шаралар, делегацияларды қабылдау, корпоративтік оқыту.",["Ішкі коммуникациялар","Корпоративтік іс-шаралар"],"Samruk Business Academy · Access and Coating Group Training"],
+    ["Бизнесті дамыту","Клиенттер мен серіктестерді тарту, коммерциялық ұсыныстар, серіктестік желіні дамыту.",[],"«Флюкс» ЖШС: бизнесті дамыту менеджері, филиал директоры"],
+    ["Цифрлық өнімдер","Жасанды интеллект құралдарымен жасалған сайттар мен цифрлық платформалар.",["Сайттар мен SaaS (вайбкодинг)"],"3 жоба: LR Clinic, Kazana Travel, ЭлектроСтройСервис"]
+  ],
+  eEyebrow:"Тәжірибе", eTitle:"Еңбек жолы", eIntro:"Шкала әр лауазымды нақты уақыт масштабында көрсетеді. Міндеттерді ашу үшін карточканы басыңыз.",
+  spanTitle:"Мансап шкаласы, 2015–2026", spanLegend:["Негізгі лауазым","Сол лауазымдағы қайталама кезең"],
+  more:"Толығырақ", less:"Жасыру", yr:"ж.", mo:"ай", rolesN:n=>`${n} лауазым`,
+  jobs:{
+    flux:{ org:"«Флюкс» ЖШС", short:"Флюкс", title:"Басшылық лауазымдар", sum:"Компания директоры, директор орынбасары, бизнесті дамыту менеджері және Астанадағы филиал директоры.",
+      roles:{ branch:["Астана қаласындағы филиал директоры",["Филиалдың операциялық қызметін ұйымдастыру және бақылау","Жоспарлы көрсеткіштердің орындалуын қамтамасыз ету және клиенттік базаны дамыту","Персоналды басқару: іріктеу, мотивация және команданы дамыту","Бас кеңсемен және сабақтас бөлімшелермен өзара іс-қимыл жасау","Қаржы-шаруашылық қызметті бақылау және шығындарды оңтайландыру","Корпоративтік стандарттар мен рәсімдердің сақталуын қамтамасыз ету","Аймақтық деңгейде компанияның мүдделерін таныстыру"]],
+              deputy:["Директор орынбасары",["Компанияның негізгі бөлімшелерінің жұмысын үйлестіру","Стратегиялық шешімдерді әзірлеуге және іске асыруға қатысу","Операциялық және қаржылық жоспарлардың орындалуын бақылау","Бюджет шығыстарының баптарын жоспарлау, қалыптастыру және бақылау: автокөлік қызметтері, кеңсе үй-жайларын жалға алу, кеңсе жиһаздары, кеңсе тауарлары және өзге де шығындар","Филиалдар мен еншілес құрылымдардың қызмет көрсеткіштерін талдау","Объектілерде еңбекті қорғау, өнеркәсіптік және экологиялық қауіпсіздік талаптарының сақталуын бақылау","Серіктестермен, мердігерлермен және мемлекеттік органдармен өзара іс-қимыл жасау","Ішкі регламенттер мен процестерді қадағалау және бизнес-процестерді оңтайландыру","Өндірістік санитария және өрт қауіпсіздігі нормаларына сәйкес шаруашылық қызмет көрсетуді және тиісті техникалық-санитарлық жағдайды қамтамасыз ету","Директор болмаған жағдайда оны алмастыру және басқарушылық шешімдер қабылдау","Жеткізуге арналған тауарларды қабылдау және өңдеу, жеткізу мен тапсырысты ұйымдастыру","Директорға мекеме шығындарын азайту бойынша ұсыныстар әзірлеу"]],
+              bdm:["Бизнесті дамыту менеджері",["Жаңа клиенттер мен серіктестерді іздеу және тарту","Нарықты және бәсекелестік ортаны талдау, жаңа мүмкіндіктерді анықтау","Өсу стратегияларын әзірлеу және жаңа нарықтарға шығу жоспарларын іске асыру","Коммерциялық ұсыныстар дайындау және келіссөздер жүргізу","Мәмілелерді шарт жасалғанға дейін сүйемелдеу","Жаңа жобаларды іске қосу үшін ішкі бөлімшелермен өзара іс-қимыл жасау","Есептілікті қалыптастыру және даму көрсеткіштерін бақылау"]],
+              gd:["Директор",["Компанияның бас кеңсе деңгейіндегі қызметіне жалпы басшылық жасау","Бизнестің даму стратегиясын әзірлеу және іске асыру","Қаржылық, операциялық және өндірістік көрсеткіштердің орындалуын бақылау","Негізгі бөлімшелерді басқару және филиалдар жұмысын үйлестіру","Инвестициялық, қаржылық, кадрлық және ұйымдастырушылық мәселелер бойынша шешім қабылдау","Мемлекеттік органдар мен серіктестер деңгейінде компанияның мүдделерін таныстыру","Ішкі процестердің тиімділігін қамтамасыз ету және корпоративтік стандарттардың сақталуын бақылау"]] } },
+    acg:{ org:"«Access and Coating Group Training» ЖШС", short:"Access and Coating", title:"", sum:"Корпоративтік оқыту бағдарламалары, тренерлермен жұмыс және жаңа қызметкерлердің бейімделуі.",
+      roles:{ main:["Тренинг координаторы",["Корпоративтік оқыту бағдарламаларын ұйымдастыру және үйлестіру","Сыртқы және ішкі тренерлермен өзара іс-қимыл жасау, оқыту кестесін қалыптастыру","Оқытуға өтінімдерді жинау, персоналдың даму қажеттіліктерін талдау","Оқу материалдарын дайындау және тренингтер логистикасын қамтамасыз ету","Оқыту бойынша деректер базасын жүргізу, есептілікті рәсімдеу және тиімділігін бағалау","Жаңа қызметкерлерді бейімдеу (адаптация) үдерістерін сүйемелдеу","Оқыту және дамыту саласындағы стандарттар мен рәсімдердің сақталуын бақылау"]] } },
+    apec:{ org:"«APEC PetroTechnic жоғары колледжі» ЖШС", short:"APEC PetroTechnic", title:"", sum:"Колледждің даму стратегиясы, оқу үдерісін жаңғырту және жаңа білім беру бағдарламалары.",
+      roles:{ main:["Стратегиялық даму жөніндегі бас менеджер",["Білім беру мекемесінің даму стратегиясын әзірлеу және іске асыру","Білім беру нарығын талдау және оқыту процесіне инновациялық тәсілдерді енгізу","Оқу үдерісін жаңғырту бойынша жобаларды бастау және үйлестіру","Серіктестермен, мемлекеттік органдармен және халықаралық ұйымдармен өзара іс-қимыл жасау","Талдамалық есептер, стратегиялық жоспарлар және ұсыныстар дайындау","Жаңа білім беру бағдарламалары мен бағыттарын енгізуді үйлестіру","Білім беру сапасы мен тиімділігінің негізгі көрсеткіштерін мониторингтеу"]] } },
+    samruk:{ org:"Samruk Business Academy (бұрынғы атауы: «Самұрық-Қазына» корпоративтік университеті) · «Ембімұнайгаз» АҚ", short:"Samruk Business Academy", title:"", sum:"Бөлімшелерге әкімшілік қолдау, құжат айналымы, делегацияларды қабылдау.",
+      roles:{ main:["«Ембімұнайгаз» АҚ әкімшілік-қолдау блогының маманы",["Компания бөлімшелеріне әкімшілік және ұйымдастырушылық қолдау көрсету","Құжаттаманы жүргізу, есептер дайындау және тапсырмалардың орындалуын бақылау","Материалдық-техникалық қамтамасыз ету процестеріне қатысу және мердігер ұйымдармен өзара іс-қимыл жасау","Қызметтік жазбалар мен өтінімдерді дайындау, ішкі процестерді сүйемелдеу","Іссапармен келген делегациялар мен тұлғаларды тіркеуді, қабылдауды және қызмет көрсетуді ұйымдастыру","Ағымдағы мәселелер бойынша басқа құрылымдық бөлімшелермен өзара әрекеттесу","Көмекші сервистер мен инфрақұрылым жұмысының тәртібін қамтамасыз ету","Ішкі бастамалар мен корпоративтік іс-шараларды іске асыруға қатысу","Өндірістік басқармалармен шаруашылық қызмет көрсету мәселелері бойынша өзара іс-қимыл","Өз қызметінің нәтижелілігі мен тиімділігін талдау, үдерістерді үздіксіз жетілдіру"]] } },
+    center:{ org:"ҚР Мәдениет және ақпарат министрлігі Ақпарат комитетінің «Талдау және ақпарат орталығы» ШЖҚ РМК", short:"Талдау және ақпарат орталығы", title:"", sum:"Байланыс және АТ саласындағы талдау, ақпараттық кеңістік мониторингі, министрлікке арналған материалдар.",
+      roles:{ main:["Аналитик-сарапшы",["Байланыс және ақпараттық технологиялар саласындағы статистикалық және талдамалық деректерді жинау, өңдеу және талдау","Министрлік пен мемлекеттік органдар үшін есептер, анықтамалар және талдамалық материалдар дайындау","Цифрлық даму саласындағы стратегиялық құжаттарды, бағдарламалар мен жобаларды әзірлеуге қатысу","Салалық үрдістер мен ақпараттық кеңістікке мониторинг жүргізу","Ақпараттық-талдамалық жүйелер мен деректер базаларын сүйемелдеу","Ведомствоаралық ынтымақтастық аясында сарапшылармен, мемлекеттік органдармен және ұйымдармен өзара іс-қимыл","Талдамалық қорытындылар мен болжамдар негізінде шешім қабылдау процестерін қолдау"]] } }
+  },
+  pEyebrow:"Жобалар", pTitle:"Цифрлық жобалар", pIntro:"Жасанды интеллект құралдарымен өзім жасаған сайттар мен веб-платформалар.",
+  kinds:{site:"Сайт",platform:"Веб-платформа"}, open:"Сайтты ашу", opensNew:"(жаңа бетте ашылады)", siteLangs:"Сайт тілдері",
+  proj:{ lr:"Стоматологиялық клиника, Астана", kt:"Қазақстан бойынша жеке авторлық саяхаттар, Алматы", ess:"Энергетикалық нысандарды салу және қызмет көрсету, Атырау" },
+  edEyebrow:"Білімі", edTitle:"Білімі және тілдер", edIntro:"КИМЭП университетінде халықаралық қатынастар және ҚР Парламенті Мәжілісіндегі тағылымдама.",
+  eduHead:"Білімі", edu:[["Халықаралық қатынастар магистрі","КИМЭП университеті"],["Халықаралық қатынастар бакалавры","КИМЭП университеті"],["Тағылымдама","ҚР Парламенті Мәжілісі"]],
+  langHead:"Тілдер", langs:[["Қазақ тілі","еркін"],["Орыс тілі","еркін"],["Ағылшын тілі","жоғары"],["Түрік тілі","жоғары"],["Испан тілі","бастапқы"]],
+  extraHead:"Қосымша", extra:["Жүргізуші куәлігі: B, B1, C, C1","Толық жұмыс күні","Көшуге дайынмын"],
+  cEyebrow:"Байланыс", cTitle:"Байланысайық", cLead:"Толық жұмыс күніне ұсыныстарды қарастырамын. Көшуге дайынмын.",
+  cLabels:["Email","Телефон","Аймақ"], region:"Атырау облысы, Қазақстан", copy:"Көшіру", copied:"Көшірілді",
+  foot:"Төлеген Бауыржан", toTop:"Жоғары"
+},
+en:{
+  htmlLang:"en", docTitle:"Tolegen Bauyrzhan — Management, Communications & Strategic Development",
+  skip:"Skip to content", menu:"Menu", close:"Close menu",
+  nav:{about:"About",expertise:"Expertise",experience:"Experience",projects:"Projects",education:"Education",contact:"Contact"},
+  name:["Tolegen","Bauyrzhan"],
+  meta:["Atyrau Region, Kazakhstan","Open to relocation","Full-time"],
+  headline:"Management, communications and strategic development professional",
+  lead:"Led a company and a regional branch, represented organisations before government bodies, partners and international organisations, and analysed the information space for the public sector. Builds websites and digital platforms with AI tools and can launch a company's digital channels independently.",
+  focus:["Management & strategy","Government & international relations","Analysis & reporting","Digital products"],
+  cta:["View experience","Get in touch"], cv:"Download CV, PDF", cvBusy:"Preparing file…", cvFail:"Could not save. The file will open in a new tab.",
+  photoAlt:"Portrait of Tolegen Bauyrzhan",
+  caption:["Education","MA in International Relations, KIMEP University"],
+  stats:[["9","years of experience"],["4","fluent languages"],["3","digital projects"]],
+  xEyebrow:"Expertise", xTitle:"Core expertise", xIntro:"Nine competencies from the CV, grouped by area and tied to where they were applied.",
+  xgroups:[
+    ["Management & strategy","Running a branch and a company, growth strategy, budget and business processes.",["Team leadership"],"Flux LLP: Director, Branch Director, Deputy Director"],
+    ["Government & international relations","Representing organisations before government bodies, partners and international organisations.",["Government relations","International liaison","Negotiations"],"Flux LLP · APEC PetroTechnic · Information Committee of Kazakhstan"],
+    ["Analysis","Monitoring the information space and preparing analytical briefs for the Ministry.",["Media & information monitoring","Analysis & reporting"],"Center for Analysis and Information, 2015–2019"],
+    ["Communications","Internal communications, corporate events, delegation visits and corporate training.",["Internal communications","Corporate events"],"Samruk Business Academy · Access and Coating Group Training"],
+    ["Business development","Attracting clients and partners, commercial proposals and a growing partner network.",[],"Flux LLP: Business Development Manager, Branch Director"],
+    ["Digital products","Websites and digital platforms built with AI tools.",["Websites & SaaS (vibe coding)"],"3 projects: LR Clinic, Kazana Travel, ElectroStroyService"]
+  ],
+  eEyebrow:"Experience", eTitle:"Experience", eIntro:"The scale shows every position to true length in time. Open a card to see the responsibilities.",
+  spanTitle:"Career to scale, 2015–2026", spanLegend:["Main role","Second term in the same role"],
+  more:"Details", less:"Hide", yr:"yr", mo:"mo", rolesN:n=>`${n} roles`,
+  jobs:{
+    flux:{ org:"Flux LLP", short:"Flux LLP", title:"Leadership positions", sum:"Director, Deputy Director, Business Development Manager and Branch Director in Astana.",
+      roles:{ branch:["Branch Director, Astana",["Organised and oversaw the branch's operations","Delivered planned targets and grew the client base","Managed people: recruitment, motivation and team development","Worked with the head office and related divisions","Controlled financial and administrative activity and optimised costs","Ensured compliance with corporate standards and procedures","Represented the company at regional level"]],
+              deputy:["Deputy Director",["Coordinated the company's key divisions","Took part in developing and implementing strategic decisions","Monitored delivery of operational and financial plans","Planned, built and controlled budget expense lines: vehicle services, office rent, office furniture, office supplies and other costs","Analysed the performance of branches and subsidiaries","Ran on-site checks on occupational health, industrial and environmental safety compliance","Worked with partners, contractors and government agencies","Oversaw internal regulations and processes and streamlined business processes","Ensured facility services and proper technical and sanitary condition under industrial sanitation and fire safety rules","Acted for the Director in their absence and made management decisions","Received and processed goods for supply, arranged delivery and ordering","Developed cost-reduction proposals for the Director"]],
+              bdm:["Business Development Manager",["Sourced and attracted new clients and partners","Analysed the market and competition and identified new opportunities","Developed growth strategies and executed plans to enter new markets","Prepared commercial proposals and led negotiations","Took deals through to signed contracts","Worked with internal divisions to launch new projects","Produced reports and tracked growth metrics"]],
+              gd:["Director",["Led the company's overall activity at head-office level","Developed and implemented the business growth strategy","Monitored financial, operational and production targets","Managed key divisions and coordinated the branches","Made investment, financial, HR and organisational decisions","Represented the company before government bodies and partners","Kept internal processes efficient and enforced corporate standards"]] } },
+    acg:{ org:"Access and Coating Group Training LLP", short:"Access and Coating", title:"", sum:"Corporate training programmes, trainer coordination and new-hire onboarding.",
+      roles:{ main:["Programme and Project Coordinator (Manager)",["Organised and coordinated corporate training programmes","Worked with external and internal trainers and built the training schedule","Collected training requests and analysed staff development needs","Prepared learning materials and handled training logistics","Kept the training database, produced reports and evaluated effectiveness","Supported new-hire onboarding","Monitored compliance with learning and development standards and procedures"]] } },
+    apec:{ org:"APEC PetroTechnic Higher College LLP", short:"APEC PetroTechnic", title:"", sum:"College development strategy, modernisation of teaching and the launch of new programmes.",
+      roles:{ main:["Head of Strategy Department",["Developed and implemented the institution's development strategy","Analysed the education market and introduced innovative teaching approaches","Initiated and coordinated projects to modernise the learning process","Worked with partners, government agencies and international organisations","Prepared analytical reports, strategic plans and proposals","Coordinated the launch of new educational programmes and fields","Monitored key indicators of education quality and effectiveness"]] } },
+    samruk:{ org:"Samruk Business Academy (formerly Samruk-Kazyna Corporate University) · Embamunaigas JSC", short:"Samruk Business Academy", title:"", sum:"Administrative support for divisions, document flow and delegation visits.",
+      roles:{ main:["Office Specialist",["Provided administrative and organisational support to company divisions","Maintained documentation, prepared reports and tracked task completion","Took part in logistics support and worked with contractors","Prepared memos and requests and supported internal processes","Organised registration, reception and services for delegations and business visitors","Coordinated day-to-day matters with other departments","Kept auxiliary services and facilities running in order","Took part in internal initiatives and corporate events","Worked with production divisions on facility services","Reviewed the results and efficiency of own work and improved processes continuously"]] } },
+    center:{ org:"Center for Analysis and Information (RSE), Information Committee, Ministry of Culture and Information of Kazakhstan", short:"Center for Analysis", title:"", sum:"Communications and IT analytics, information space monitoring and materials for the Ministry.",
+      roles:{ main:["Analyst-Expert",["Collected, processed and analysed statistical and analytical data on communications and IT","Prepared reports, briefs and analytical materials for the Ministry and government agencies","Contributed to strategic documents, programmes and projects in digital development","Monitored industry trends and the information space","Maintained information-analytical systems and databases","Worked with experts, government agencies and organisations on interagency cooperation","Supported decision-making with analytical conclusions and forecasts"]] } }
+  },
+  pEyebrow:"Projects", pTitle:"Digital projects", pIntro:"Websites and web platforms I built with AI tools.",
+  kinds:{site:"Website",platform:"Web platform"}, open:"Open site", opensNew:"(opens in a new tab)", siteLangs:"Site languages",
+  proj:{ lr:"Dental clinic, Astana", kt:"Curated private journeys across Kazakhstan, Almaty", ess:"Construction and maintenance of power facilities, Atyrau" },
+  edEyebrow:"Education", edTitle:"Education & languages", edIntro:"International Relations at KIMEP University and an internship at the Mazhilis of the Parliament of Kazakhstan.",
+  eduHead:"Education", edu:[["MA, International Relations","KIMEP University"],["BA, International Relations","KIMEP University"],["Internship","Mazhilis, Parliament of Kazakhstan"]],
+  langHead:"Languages", langs:[["Kazakh","fluent"],["Russian","fluent"],["English","advanced"],["Turkish","advanced"],["Spanish","basic"]],
+  extraHead:"Additional", extra:["Driving licence: B, B1, C, C1","Full-time","Open to relocation"],
+  cEyebrow:"Contact", cTitle:"Let's connect", cLead:"Open to full-time roles. Ready to relocate.",
+  cLabels:["Email","Phone","Region"], region:"Atyrau Region, Kazakhstan", copy:"Copy", copied:"Copied",
+  foot:"Tolegen Bauyrzhan", toTop:"Back to top"
+}};
+
+/* ================= HELPERS ================= */
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ym = s => { const [y,m] = s.split("-").map(Number); return y*12 + (m-1); };
+const fmt = s => { const [y,m] = s.split("-"); return `${m}.${y}`; };
+const months = periods => periods.reduce((a,[s,e]) => a + ym(e) - ym(s) + 1, 0);
+const dur = (n,t) => { const y = Math.floor(n/12), m = n%12; return [y ? `${y} ${t.yr}` : "", m ? `${m} ${t.mo}` : ""].filter(Boolean).join(" "); };
+const AX0 = ym("2015-01"), AX1 = ym("2026-12") + 1;
+const pct = v => ((v - AX0) / (AX1 - AX0) * 100).toFixed(3);
+const SECTIONS = ["about","expertise","experience","projects","education","contact"];
+const openState = new Set();
+let lang = "ru";
+
+/* ================= RENDERERS ================= */
+function renderNav(t){
+  $("#nav").innerHTML = SECTIONS.map(id => `<a href="#${id}" data-sec="${id}">${esc(t.nav[id])}</a>`).join("");
+  $("#mnav").innerHTML = SECTIONS.map((id,i) => `<a href="#${id}" data-sec="${id}">${esc(t.nav[id])}<span>0${i+1}</span></a>`).join("");
+}
+
+function renderHero(t){
+  $("#about").innerHTML = `
+  <div class="hero-grid">
+    <div>
+      <p class="metaline mono anim">${t.meta.map(m => `<span>${esc(m)}</span>`).join("")}</p>
+      <h1 class="name anim" id="h-name">${esc(t.name[0])}<span class="l2">${esc(t.name[1])}</span></h1>
+      <div class="anim">
+        <p class="headline">${esc(t.headline)}</p>
+        <p class="lead">${esc(t.lead)}</p>
+        <ul class="focus" aria-label="${esc(t.nav.expertise)}">${t.focus.map(f => `<li>${esc(f)}</li>`).join("")}</ul>
+        <div class="ctas">
+          <a class="btn btn-primary" href="#experience">${esc(t.cta[0])} ${DOWN}</a>
+          <a class="btn btn-ghost" href="#contact">${esc(t.cta[1])}</a>
+          <a class="btn btn-ghost cv-dl" href="${cvFile()}" download target="_blank" rel="noopener">${PDFICON} ${esc(t.cv)}</a>
+        </div>
+      </div>
+    </div>
+    <figure class="portrait">
+      <div class="frame"><span class="corner tl" aria-hidden="true"></span><img src="${PHOTO}" alt="${esc(t.photoAlt)}" width="500" height="600"><span class="corner br" aria-hidden="true"></span></div>
+      <figcaption><span class="mono">${esc(t.caption[0])}</span><strong>${esc(t.caption[1])}</strong></figcaption>
+    </figure>
+  </div>
+  <ul class="stats">${t.stats.map(([n,l]) => `<li class="stat"><b>${n}</b><span>${esc(l)}</span></li>`).join("")}</ul>`;
+}
+
+function head(id, eyebrow, title, intro){
+  return `<div class="sec-head rv"><div><p class="eyebrow">${esc(eyebrow)}</p><h2 id="h-${id}">${esc(title)}</h2></div>${intro ? `<p>${esc(intro)}</p>` : ""}</div>`;
+}
+
+function renderExpertise(t){
+  $("#expertiseIn").innerHTML = head("expertise", t.xEyebrow, t.xTitle, t.xIntro) +
+  `<div class="xgrid">${t.xgroups.map(([h,d,tags,ev],i) => `
+    <article class="xcard rv">
+      <span class="ico" aria-hidden="true">${ICONS[XICONS[i]]}</span>
+      <h3>${esc(h)}</h3>
+      <p>${esc(d)}</p>
+      ${tags.length ? `<ul class="tags">${tags.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      <p class="ev">${esc(ev)}</p>
+    </article>`).join("")}</div>`;
+}
+
+function jobRange(job){
+  const all = job.roles.flatMap(r => r.periods);
+  const s = all.map(p => p[0]).sort()[0], e = all.map(p => p[1]).sort().slice(-1)[0];
+  return [s,e];
+}
+
+function renderExperience(t){
+  const years = Array.from({length:12}, (_,i) => 2015 + i);
+  const rows = JOBS.map(job => {
+    const tj = t.jobs[job.id];
+    const segs = job.roles.flatMap(r => r.periods.map((p,pi) => ({p, alt: pi > 0, title: `${tj.roles[r.key][0]}: ${fmt(p[0])} – ${fmt(p[1])}`})));
+    const [s,e] = jobRange(job);
+    return `<a class="srow" href="#job-${job.id}" data-job="${job.id}" aria-label="${esc(tj.org)}, ${fmt(s)} – ${fmt(e)}">
+      <span class="lbl">${esc(tj.short)}</span>
+      <span class="track" aria-hidden="true">${segs.map(sg => `<span class="bar${sg.alt ? " alt" : ""}" title="${esc(sg.title)}" style="left:${pct(ym(sg.p[0]))}%;width:calc(${(pct(ym(sg.p[1])+1) - pct(ym(sg.p[0]))).toFixed(3)}% - 2px)"></span>`).join("")}</span>
+    </a>`;
+  }).join("");
+
+  const cards = JOBS.map(job => {
+    const tj = t.jobs[job.id];
+    const [s,e] = jobRange(job);
+    const total = months(job.roles.flatMap(r => r.periods));
+    const multi = job.roles.length > 1;
+    const roleHtml = job.roles.map(r => {
+      const [title, bullets] = tj.roles[r.key];
+      const per = r.periods.map(p => `${fmt(p[0])} – ${fmt(p[1])}`).join(" · ");
+      return `<div class="role"><h4>${esc(title)}</h4><span class="rp">${per} · ${dur(months(r.periods), t)}</span><ul>${bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul></div>`;
+    }).join("");
+    return `<div class="job rv" id="job-${job.id}">
+      <p class="when"><b>${fmt(e)}</b><span>${fmt(s)} · ${dur(total, t)}</span></p>
+      <details class="card" data-id="${job.id}"${openState.has(job.id) ? " open" : ""}>
+        <summary>
+          <div>
+            <p class="org">${esc(tj.org)}</p>
+            <h3>${esc(multi ? tj.title : tj.roles.main[0])}</h3>
+            <p class="sum">${esc(tj.sum)}</p>
+            ${multi ? `<ul class="roles" aria-label="${esc(t.rolesN(job.roles.length))}">${job.roles.map(r => `<li>${esc(tj.roles[r.key][0])}</li>`).join("")}</ul>` : ""}
+          </div>
+          <span class="chev"><span class="o">${esc(t.more)}</span><span class="c">${esc(t.less)}</span>${DOWN}</span>
+        </summary>
+        <div class="detail">${roleHtml}</div>
+      </details>
+    </div>`;
+  }).join("");
+
+  $("#experienceIn").innerHTML = head("experience", t.eEyebrow, t.eTitle, t.eIntro) + `
+    <figure class="span rv" style="margin:0 0 var(--s7)">
+      <figcaption class="span-top"><span class="mono">${esc(t.spanTitle)}</span>
+        <span class="legend"><span><i></i>${esc(t.spanLegend[0])}</span><span><i class="alt"></i>${esc(t.spanLegend[1])}</span></span></figcaption>
+      <div class="span-rows">${rows}</div>
+      <div class="axis" aria-hidden="true"><span></span><div class="ticks">${years.map(y => `<span>${y}</span>`).join("")}</div></div>
+    </figure>
+    <div class="tl">${cards}</div>`;
+
+  document.querySelectorAll("#experienceIn details.card").forEach(d => d.addEventListener("toggle", () => {
+    d.open ? openState.add(d.dataset.id) : openState.delete(d.dataset.id);
+  }));
+  document.querySelectorAll(".srow").forEach(a => a.addEventListener("click", () => {
+    openState.add(a.dataset.job);
+    const d = document.querySelector(`details[data-id="${a.dataset.job}"]`); if (d) d.open = true;
+  }));
+}
+
+function renderProjects(t){
+  $("#projectsIn").innerHTML = head("projects", t.pEyebrow, t.pTitle, t.pIntro) +
+  `<div class="pgrid">${PROJECTS.map(p => `
+    <a class="proj rv" href="${p.url}" target="_blank" rel="noopener noreferrer" aria-label="${esc(p.name)}: ${esc(t.proj[p.id])}. ${esc(t.open)} ${esc(t.opensNew)}">
+      <div class="plate" aria-hidden="true"><span class="mono">${esc(t.kinds[p.kind])}</span><b>${p.mono}</b></div>
+      <div class="pb">
+        <h3>${esc(p.name)}</h3>
+        <p class="k">${esc(t.proj[p.id])}</p>
+        ${p.site.length ? `<p class="sl"><span class="sr">${esc(t.siteLangs)}: </span>${p.site.map(l => `<span>${l}</span>`).join("")}</p>` : ""}
+        <p class="url">${p.domain}</p>
+        <span class="go">${esc(t.open)} ${ARROW}</span>
+      </div>
+    </a>`).join("")}</div>`;
+}
+
+function renderEducation(t){
+  $("#educationIn").innerHTML = head("education", t.edEyebrow, t.edTitle, t.edIntro) + `
+  <div class="edu-grid">
+    <div class="rv">
+      <h3 class="sub">${esc(t.eduHead)}</h3>
+      <ul class="edu">${t.edu.map(([d,u],i) => `<li><span class="yr">${EDU_YEARS[i]}</span><div><strong>${esc(d)}</strong><span>${esc(u)}</span></div></li>`).join("")}</ul>
+    </div>
+    <div class="rv">
+      <h3 class="sub">${esc(t.langHead)}</h3>
+      <ul class="langs-list">${t.langs.map(([n,l],i) => `<li><span class="ln">${esc(n)}</span><span class="lv">${esc(l)}</span><span class="meter" role="img" aria-label="${esc(n)}: ${esc(l)}, ${LANG_LEVELS[i]}/5">${[1,2,3,4,5].map(k => `<i class="${k <= LANG_LEVELS[i] ? "on" : ""}"></i>`).join("")}</span></li>`).join("")}</ul>
+      <h3 class="sub" style="margin-top:var(--s6)">${esc(t.extraHead)}</h3>
+      <ul class="extra" style="margin-top:0">${t.extra.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    </div>
+  </div>`;
+}
+
+function renderContact(t){
+  $("#contactIn").innerHTML = `
+    <p class="eyebrow">${esc(t.cEyebrow)}</p>
+    <h2 id="h-contact">${esc(t.cTitle)}</h2>
+    <p class="clead">${esc(t.cLead)}</p>
+    <div class="clist">
+      <div class="citem"><span class="ck">${esc(t.cLabels[0])}</span><a class="cv" href="mailto:${CONTACT.email}" id="cEmail">${CONTACT.email}</a><button class="copy" type="button" data-copy="${CONTACT.email}" aria-label="${esc(t.copy)}: ${CONTACT.email}">${esc(t.copy)}</button></div>
+      <div class="citem"><span class="ck">${esc(t.cLabels[1])}</span><a class="cv" href="tel:${CONTACT.tel}" id="cPhone">${CONTACT.phone}</a><button class="copy" type="button" data-copy="${CONTACT.phone}" aria-label="${esc(t.copy)}: ${CONTACT.phone}">${esc(t.copy)}</button></div>
+      <div class="citem"><span class="ck">${esc(t.cLabels[2])}</span><span class="cv small">${esc(t.region)}</span><span></span></div>
+    </div>
+    <p style="margin-top:var(--s6)"><a class="btn btn-band cv-dl" href="${cvFile()}" download target="_blank" rel="noopener">${PDFICON} ${esc(t.cv)}</a></p>`;
+  document.querySelectorAll(".copy").forEach(b => b.addEventListener("click", () => {
+    const val = b.dataset.copy;
+    const ok = () => { b.textContent = T[lang].copied; b.classList.add("done"); setTimeout(() => { b.textContent = T[lang].copy; b.classList.remove("done"); }, 1800); };
+    const fallback = () => { const el = b.previousElementSibling; const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+    try { navigator.clipboard.writeText(val).then(ok, fallback); } catch(e){ fallback(); }
+  }));
+  $("#footIn").innerHTML = `<span>© 2026 ${esc(t.foot)}</span><a href="#about">${esc(t.toTop)} ↑</a>`;
+}
+
+/* ================= BEHAVIOUR ================= */
+function setLang(l){
+  lang = T[l] ? l : "ru";
+  const t = T[lang];
+  document.documentElement.lang = t.htmlLang;
+  document.title = t.docTitle.split(" — ")[0];
+  $("#skip").textContent = t.skip;
+  $("#markName").textContent = t.foot;
+  $("#burger").setAttribute("aria-label", t.menu);
+  document.querySelectorAll("#langs button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+  renderNav(t); renderHero(t); renderExpertise(t); renderExperience(t); renderProjects(t); renderEducation(t); renderContact(t);
+  setupReveal(); markActive();
+  try { localStorage.setItem("tb-lang", lang); } catch(e){}
+}
+
+document.querySelectorAll("#langs button").forEach(b => b.addEventListener("click", () => setLang(b.dataset.lang)));
+
+/* mobile nav */
+const burger = $("#burger"), mnav = $("#mnav");
+function toggleMenu(open){
+  mnav.hidden = !open;
+  burger.setAttribute("aria-expanded", String(open));
+  burger.setAttribute("aria-label", open ? T[lang].close : T[lang].menu);
+  $("#burgerPath").setAttribute("d", open ? "M6 6l12 12M18 6L6 18" : "M4 7h16M4 12h16M4 17h16");
+}
+burger.addEventListener("click", () => toggleMenu(mnav.hidden));
+mnav.addEventListener("click", e => { if (e.target.closest("a")) toggleMenu(false); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !mnav.hidden){ toggleMenu(false); burger.focus(); } });
+matchMedia("(min-width: 921px)").addEventListener("change", e => { if (e.matches) toggleMenu(false); });
+
+/* header border + active section */
+let current = "about";
+function markActive(){
+  document.querySelectorAll("[data-sec]").forEach(a => a.setAttribute("aria-current", String(a.dataset.sec === current)));
+}
+function onScroll(){
+  $("#top").classList.toggle("scrolled", scrollY > 8);
+  const y = scrollY + innerHeight * 0.35;
+  let c = "about";
+  for (const id of SECTIONS){ const el = document.getElementById(id); if (el && el.offsetTop <= y) c = id; }
+  if (innerHeight + scrollY >= document.documentElement.scrollHeight - 4) c = "contact";
+  if (c !== current){ current = c; markActive(); }
+}
+addEventListener("scroll", onScroll, {passive:true});
+
+/* reveal: only elements below the first screen start hidden */
+let io;
+function setupReveal(){
+  if (io) io.disconnect();
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const els = document.querySelectorAll(".rv");
+  if (reduce || !("IntersectionObserver" in window)) return;
+  io = new IntersectionObserver(entries => entries.forEach(en => { if (en.isIntersecting){ en.target.classList.remove("pre"); io.unobserve(en.target); } }), {rootMargin:"0px 0px -8% 0px"});
+  els.forEach(el => { if (el.getBoundingClientRect().top > innerHeight){ el.classList.add("pre"); io.observe(el); } });
+}
+
+/* CV download: saves through the viewer when allowed, otherwise opens the PDF */
+const CV_FILES = { ru:"tolegen-bauyrzhan-cv-ru.pdf", kz:"tolegen-bauyrzhan-cv-kz.pdf", en:"tolegen-bauyrzhan-cv-en.pdf" };
+function cvFile(){ return CV_FILES[lang]; }
+let dlApi;
+const dlReady = (window.claude && claude.use) ? claude.use("downloads").then(d => (dlApi = d), () => null) : Promise.resolve(null);
+document.addEventListener("click", async e => {
+  const a = e.target.closest(".cv-dl"); if (!a) return;
+  if (!dlApi) return; /* plain link opens the PDF */
+  e.preventDefault();
+  const label = a.lastChild.textContent;
+  a.setAttribute("aria-busy","true"); a.lastChild.textContent = " " + T[lang].cvBusy;
+  try {
+    const blob = await (await fetch(cvFile())).blob();
+    await dlApi.save({ filename: cvFile(), data: blob });
+  } catch(err){
+    if (!err || err.code !== "declined") window.open(a.href, "_blank", "noopener");
+  } finally { a.removeAttribute("aria-busy"); a.lastChild.textContent = label; }
+});
+
+/* init */
+let saved = "ru";
+try { saved = localStorage.getItem("tb-lang") || "ru"; } catch(e){}
+setLang(saved);
+onScroll();
+</script>
+
+</body>
+</html>

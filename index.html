@@ -89,7 +89,7 @@ ul{margin:0; padding:0; list-style:none}
 @media (max-width: 420px){ .mark span{display:none} .langs button{min-width:38px; padding:8px 8px} }
 
 /* ---------- Hero ---------- */
-.hero{padding-block:clamp(40px,7vw,88px) clamp(40px,6vw,72px)}
+.hero{padding-block:clamp(24px,4vw,48px) clamp(24px,4vw,40px)}
 .hero-grid{display:grid; grid-template-columns:minmax(0,1fr) 280px; gap:clamp(32px,5vw,72px); align-items:start}
 .metaline{display:flex; flex-wrap:wrap; gap:6px 18px; color:var(--muted); margin-bottom:var(--s5)}
 .metaline span{display:inline-flex; align-items:center; gap:8px}
@@ -122,7 +122,7 @@ ul{margin:0; padding:0; list-style:none}
 .corner.tl{top:-7px; left:-7px; border-width:2px 0 0 2px}
 .corner.br{bottom:calc(-7px); right:-7px; border-width:0 2px 2px 0}
 
-.stats{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:clamp(40px,6vw,64px); border-top:1px solid var(--ink); border-bottom:1px solid var(--line)}
+.stats{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:clamp(24px,4vw,40px); border-top:1px solid var(--ink); border-bottom:1px solid var(--line)}
 .stat{padding:var(--s5) var(--s5) var(--s5) 0; display:flex; align-items:baseline; gap:14px; min-width:0}
 .stat + .stat{padding-left:var(--s5); border-left:1px solid var(--line)}
 .stat b{font-family:var(--f-display); font-size:clamp(2.4rem,5vw,3.6rem); font-weight:600; line-height:1; color:var(--accent); font-variant-numeric:tabular-nums}
@@ -142,8 +142,8 @@ ul{margin:0; padding:0; list-style:none}
 }
 
 /* ---------- Sections ---------- */
-section.block{padding-block:clamp(36px,5vw,64px); border-top:1px solid var(--line)}
-.sec-head{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:var(--s5) var(--s7); align-items:end; margin-bottom:clamp(28px,4vw,48px)}
+section.block{padding-block:clamp(24px,4vw,44px); border-top:1px solid var(--line)}
+.sec-head{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:var(--s5) var(--s7); align-items:end; margin-bottom:clamp(20px,3vw,32px)}
 .sec-head h2{font-size:clamp(1.9rem,4vw,2.9rem); letter-spacing:-.015em; margin-top:var(--s3)}
 .sec-head p{color:var(--muted); max-width:52ch}
 @media (max-width: 760px){ .sec-head{grid-template-columns:1fr} }
@@ -164,12 +164,15 @@ section.block{padding-block:clamp(36px,5vw,64px); border-top:1px solid var(--lin
 @media (max-width: 620px){ .xgrid{grid-template-columns:1fr} }
 
 /* Career span */
-.span{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:var(--s5); margin-bottom:var(--s7)}
+.span{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:var(--s5); margin-bottom:var(--s5)}
 .span-top{display:flex; justify-content:space-between; gap:var(--s4); flex-wrap:wrap; margin-bottom:var(--s4)}
 .span-top .mono{color:var(--muted)}
 .span-rows{display:grid; gap:10px}
 .srow{display:grid; grid-template-columns:170px minmax(0,1fr); gap:var(--s4); align-items:center; text-decoration:none; border-radius:var(--r-sm)}
-.srow .lbl{font-size:.86rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.srow .lbl{position:relative; font-size:.86rem}
+.srow .lbl-text{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.srow .lbl::after{content:attr(data-full); position:absolute; left:0; top:100%; margin-top:6px; background:var(--ink); color:var(--paper); font-size:.72rem; line-height:1.35; padding:6px 10px; border-radius:6px; white-space:normal; width:max-content; max-width:260px; opacity:0; visibility:hidden; pointer-events:none; transition:opacity .15s; z-index:30; box-shadow:0 4px 12px rgba(0,0,0,.18)}
+.srow .lbl:hover::after, .srow .lbl:focus-visible::after{opacity:1; visibility:visible}
 .track{position:relative; height:22px; background:repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px calc(100% / 12)); border-radius:3px}
 .bar{position:absolute; top:3px; bottom:3px; background:var(--accent); border-radius:3px; transition:filter .15s}
 .bar.alt{background:color-mix(in srgb, var(--accent) 55%, var(--surface))}
@@ -665,7 +668,7 @@ function renderExperience(t){
     const segs = job.roles.flatMap(r => r.periods.map((p,pi) => ({p, alt: pi > 0, title: `${tj.roles[r.key][0]}: ${fmt(p[0])} – ${fmt(p[1])}`})));
     const [s,e] = jobRange(job);
     return `<a class="srow" href="#job-${job.id}" data-job="${job.id}" aria-label="${esc(tj.org)}, ${fmt(s)} – ${fmt(e)}">
-      <span class="lbl" title="${esc(tj.org)}">${esc(tj.short)}</span>
+      <span class="lbl" data-full="${esc(tj.org)}" tabindex="0"><span class="lbl-text">${esc(tj.short)}</span></span>
       <span class="track" aria-hidden="true">${segs.map(sg => `<span class="bar${sg.alt ? " alt" : ""}" title="${esc(sg.title)}" style="left:${pct(ym(sg.p[0]))}%;width:calc(${(pct(ym(sg.p[1])+1) - pct(ym(sg.p[0]))).toFixed(3)}% - 2px)"></span>`).join("")}</span>
     </a>`;
   }).join("");
